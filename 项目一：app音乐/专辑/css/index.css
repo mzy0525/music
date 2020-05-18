@@ -1,0 +1,267 @@
+*{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+html,
+bady{
+  font-size:10px;
+}
+
+header{
+  width: 100%;
+  height: 2.5rem;
+  display: -webkit-flex;   /*firefox*/
+  display: -o-flex;       /*欧朋*/
+  display: -moz-flex;    /*chrome 苹果 微信*/
+  display: -ms-flex;    /*IE*/
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 1rem 0 ;
+}
+header>img{
+  width: 1.9rem;
+  height: 1.9rem;
+  margin: 0rem 1.9rem;
+}
+
+article{
+  width: 100%;
+  height: 14.5rem;
+  overflow: hidden;
+}
+article>.artite-left{
+  position: relative;
+  width: 17.5rem;
+  height: 12.5rem;
+  /* margin-right: 1.6rem; */
+  float: left;
+}
+article>.artite-left>img{
+  position: absolute;
+}
+article>.artite-left .imgs1{
+  top: 1rem;
+  right: 1.5rem;
+  /* width: 12.5rem; */
+  height: 12.5rem;
+  z-index: 0;
+}
+article>.artite-left .imgs2{
+  right: 5.3rem;
+  top: 1.8rem;
+  width: 10.9rem;
+  height: 10.9rem;
+  z-index: 1;
+}
+
+article>.artite-right{
+  position: relative;
+  float: left;
+}
+article>.artite-right>.p1{
+  width: 18.5rem;
+  /* height: 3.2rem; */
+  font-size: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: nowrap;
+  color: rgb(51 51 51);
+}
+article>.artite-right>.artite-r-imgs{
+height: 7.4rem;
+position: relative;
+}
+article>.artite-right>.artite-r-imgs>img{
+  position:absolute;
+  top: 1.2rem;
+  left: 0rem;
+  width: 5rem;
+  height: 5rem;
+  z-index: 0;
+}
+article>.artite-right>.artite-r-imgs>img:nth-of-type(2){
+  z-index: 1;
+  left: 2.8rem;
+}
+article>.artite-right>.artite-jianjie{
+  width: 18.5rem;
+  font-size: 1.5rem;
+  color: rgb(102 102 102);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: nowrap;  
+}
+
+
+.gongneng{
+  width: 100%;
+  display: -webkit-flex;   /*firefox*/
+  display: -o-flex;       /*欧朋*/
+  display: -moz-flex;    /*chrome 苹果 微信*/
+  display: -ms-flex;    /*IE*/
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;    
+}
+
+.gongneng>div{
+  display: -webkit-flex;   /*firefox*/
+  display: -o-flex;       /*欧朋*/
+  display: -moz-flex;    /*chrome 苹果 微信*/
+  display: -ms-flex;    /*IE*/
+  align-items: center;
+  font-size: 1rem;
+  color: rgba(102, 102, 102, 1);
+}
+.gongneng>div>img{
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 1rem;
+  margin-left: 1.6rem;
+}
+.gongneng>div:nth-of-type(3)>img{
+  margin-right: 1.8rem;
+}
+
+footer{
+  width: 100%;
+  margin-top: 3.5rem;
+}
+footer h2{
+  height: 2.1rem;
+  line-height: 2.1rem;
+  overflow: hidden;
+  font-size: 1.8rem;
+  color: rgba(51, 51, 51, 1);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+footer h2 img{
+  float: left;
+  margin-left: 1.8rem;
+  width: 2.1rem;
+  height: 2.1rem;
+}
+footer h2 span{
+  float: left;
+  margin-left: 1.4rem;
+}
+footer h2 img:nth-of-type(2){
+  float: right;
+  margin-right: 1.8rem;
+}
+footer ul{
+  width: 100%;
+  padding: 0 1.8rem;
+  cursor: pointer;
+}
+footer ul li{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+footer ul li div{
+  float: left;
+}
+footer ul li>div:nth-of-type(1){
+  padding-top: 1.2rem;
+  color: rgb(16,91,92);
+  font-size: 1.6rem;
+  margin-right: .5rem;
+}
+footer ul li>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(1){
+  font-size: 1.8rem;
+  color: rgb(51, 51, 51);
+  width: 27.5rem;
+  margin-bottom: .3rem;
+}
+footer ul li>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2){
+  width: 27.5rem;
+  overflow: hidden;
+  white-space: nowrap;  
+  text-overflow: ellipsis;
+}
+footer ul li>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2){
+  color: rgb(102, 102, 102);
+}
+footer ul li>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>span{
+  display: inline-block;
+  width: 2.7rem;
+  height: 1.4rem;
+  display: inline-block;
+  border: 1px solid rgb(19, 97, 92);
+  border-radius: 1.4rem;
+  text-align: center;
+  line-height: 1.4rem;
+  color: rgb(19, 97, 92);
+  margin-right: .5rem;
+}
+footer>ul>li>div:nth-of-type(2)>div:nth-of-type(2){
+  width: 6.3rem;
+}
+footer ul li>div:nth-of-type(2) img{
+    width: 1.9rem;
+    height: 1.9rem;
+    margin-top: 1rem;
+    margin-right: 1.2rem;
+    /* float: right; */
+}
+footer ul li>div:nth-of-type(2) .l1{
+  float: left;
+}
+footer>ul>li>div:nth-of-type(2)>div:nth-of-type(2)>.r1{
+  float: right;
+}
+
+
+footer ul li:last-of-type{
+  margin-bottom: 5rem;
+}
+
+.guding{
+  position: fixed;
+  bottom:0rem;
+  width: 100%;
+  height: 5rem;
+  background-color: #025955;
+}
+.guding>div{
+  position: absolute;
+  width: 4.6rem;
+  height: 4.6rem;
+  bottom: 1.6rem;
+  left: 1.6rem;
+}
+.guding>div>img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.guding>p{
+  color: white;
+  font-size: 1.6rem;
+  line-height: 5rem;
+  font-weight: 500;
+  float: left;
+}
+.guding>p:nth-of-type(1){
+  margin-left: 7.1rem;
+  width: 19rem;
+}
+.guding>p:nth-of-type(2){
+  margin-left: 4rem;
+}
+.guding>p:nth-of-type(3){
+  margin-left: 1rem;
+}
+.guding>p>img{
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-top: 1.4rem;
+}
